@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular.ttf'), url('Montserrat-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold.ttf'), url('Montserrat-Bold.ttf') format('opentype');
+}
+
+body {
+    font-family: Montserrat-Regular;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url(../img/hero-bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+<!-- for removing default margin and padding-->
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+
+.alignright {
+    float: right;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav li a:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    transition: border-bottom 1s, color 15s;
+}
+
+.cta-info h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 90px;
+    position: relative;
+}
+
+.imgs {
+    float: right;
+    position: absolute;
+    right: -15px;
+}
+
+.phone-off {
+    position: absolute;
+}
+
+.iphone-btn {
+    position: absolute;
+    right: 215px;
+}
+
+.iphone-on {
+    position: absolute;
+    right: 105px;
+    top: 120px;
+}
+
+.cta-info {
+    width: 60%;
+}
+
+.cta-info h2 {
+    padding-right: 150px;
+}
+
+.cta-info p {
+    padding-right: 320px;
+}
+
+.hero-para {
+    font-size: 36px;
+    font-family: Montserrat-Regular;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.cta-button {
+    padding: 23px 35px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.cta-button:hover {
+    background: #383737;
+    transition: 0.6;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#app-feature h2 {
+    font-size: 52px;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    color: #8a8a8a;
+    margin-bottom: 30px;
+}
+
+.p-feature {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 30px;
+    padding: 0 100px;
+}
+
+.col-4-app {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+#app-feature h3 {
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+
+#app-feature p {
+    margin: 0 20px;
+    padding: 0 50px;
+}
+
+.row {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#nose {
+    background: url(../img/nose-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#nose h2 {
+    color: white;
+    font-size: 52px;
+    font-family: Montserrat-Bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.downlaod-info {
+    margin: 200px 0;
+    width: 50%;
+}
+
+.redish {
+    color: #fc5f5c;
+}
+
+.nose-p {
+    font-size: 22px;
+    font-family: Montserrat-Regular;
+    margin-bottom: 40px;
+}
+
+.download-btn {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background: #fc5f5c;
+    border-radius: 50px;
+}
+
+.download-btn:hover {
+    background: #c33934;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #2e2e38;
+}
+
+.col-4-footer {
+    width: 33.3%;
+    color: white;
+    float: left;
+}
+
+footer .container {
+    padding: 120px 20px;
+}
+
+footer h4 {
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+.redish-bg {
+    background: url(../img/rectangle.png) no-repeat;
+}
+
+.ul-post,
+.ul-tweets {
+    font-family: sans-serif;
+}
+
+.ul-post li {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.ul-post li,
+.ul-tweets li {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.small-text {
+    font-size: 9px;
+}
+
+.p-about {
+    padding-right: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.inline {
+    display: inline;
+}
+
+#copy-right {
+    background-color: #d7dedc;
+}
+
+#copy-right .container {
+    text-align: center;
+}
+
+.cr,
+.me {
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.cr:after,
+.me:after {
+    content: "";
+    border: 1px solid #555555;
+    margin-left: 30px;
+}
+
+.fb-icon,
+.dribble-icon {
+    margin-right: 30px;
+}
+
+.social-images {
+    vertical-align: middle;
+}
+
+.js-wp-2 {
+    opacity: 0;
+}
+
+.js-wp-2.animated {
+    opacity: 1;
+}

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular.ttf'), url('Montserrat-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold.ttf'), url('Montserrat-Bold.ttf') format('opentype');
+}
+
+#hero{
+    background-image:linear-gradient(rgba(218, 51,46,0.6 ),rgba(218,51,46,0.6)), url(../img/hero-bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    max-width: 1100px;
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+    padding:40px 20px;
+}
+
+.align-left{
+    float:left;
+}
+
+.align-right{
+    float:right;
+}
+
+.nav li{
+    display:inline-block;
+    margin-left:30px;
+}
+.nav li a{
+    text-decoration: none;
+    color:white;
+}
+
+.cta{
+    display:inline-block;
+    margin-top:90px;
+    width:100%;
+    position:relative;
+}
+.iphone-img{
+    right:-145px;
+    position:absolute;
+    margin-bottom: -270px;
+}
+
+.iphone{
+    width:85%;
+}
+
+
+.text-h-p{
+    width:35%;
+}
+
+.text-h-p h2{
+    font-size: 52px;
+    weight:700;
+    margin-bottom: 40px;
+    color:white;
+    font-family: Montserrat-Bold;
+}
+
+.btn-download{
+    margin: 30px 0;
+    
+}
+.btn-download a{
+    padding:23px 30px;
+    background-color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    color:white;
+}
+.iphone-icon{
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.p-text{
+    font-size: 32px;
+    font-family: Montserrat-Regular;
+    color:white;
+}
+
+
+.h-app{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

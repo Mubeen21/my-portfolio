@@ -1,0 +1,291 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: local('Montserrat-Regular.ttf'), url('Montserrat-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: local('Montserrat-Bold.ttf'), url('Montserrat-Bold.ttf') format(opentype);
+}
+
+@font-face {
+    font-family: MYRAIDPRO-REGULAR;
+    src: local('MYRIADPRO-REGULAR.woff'), url('MYRIADPRO-REGULAR.woff')format(opentype);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    float: right;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    font-family: Montserrat-Regular;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav li a:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    transition: border-bottom 1s, color 15s;
+}
+
+.cta-info {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 80px;
+}
+
+.iphone {
+    position: absolute;
+    right: -140px;
+    margin-bottom: -240px;
+}
+
+.phone {
+    width: 85%;
+}
+
+.cta {
+    width: 55%;
+    margin: 40px 20px;
+}
+
+.cta h2 {
+    font-family: MYRAIDPRO-REGULAR;
+    margin-top: 80px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+    padding-bottom: 30px;
+}
+
+.cta-para {
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 80px;
+    line-height: 40px;
+}
+
+.cta-button a {
+    text-decoration: none;
+    color: white;
+    padding: 23px 35px;
+    background: #282828;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.cta-button a:hover {
+    background-color: #594d4d;
+}
+
+.phone-icon {
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+#app-feature {
+    background-color: #ffffff;
+}
+
+.app-feature-heading {
+    text-align: center;
+    padding: 40px 90px;
+}
+
+.app-feature-heading h2 {
+    font-size: 42px;
+    color: #8a8a8a;
+    font-family: Montserrat-Bold;
+    padding-bottom: 30px;
+}
+
+.app-feature-p {
+    padding: 0 90px;
+    font-family: Helvetica;
+    line-height: 23px;
+    color: #3a3a3a;
+    padding-bottom: 40px;
+}
+
+.col-4-app {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.col-4-app h3 {
+    font-family: Montserrat-Bold;
+    font-size: 23px;
+    padding: 25px 0;
+}
+
+.app-feature-para {
+    font-family: Helvetica;
+    padding: 10px 60px;
+    line-height: 20px;
+    color: #3a3a3a;
+}
+
+#big-nose {
+    background-image: url(../img/nose-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.big-nose-h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-family: MYRAIDPRO-REGULAR;
+    width: 45%;
+    margin-top: 70px;
+}
+
+.red-color {
+    color: red;
+}
+
+.big-nose-para {
+    margin-top: 55px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    max-width: 385px;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.big-nose-btn {
+    margin-bottom: 100px;
+}
+
+.big-nose-btn a {
+    padding: 15px 25px;
+    background: #d9332d;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.big-nose-btn a:hover {
+    background-color: #b53a35;
+}
+
+footer {
+    background: #2e2e38;
+}
+
+.footer-body {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.col-4-footer {
+    width: 33.33%;
+    float: left;
+    color: white;
+}
+
+.col-4-footer h3 {
+    font-family: Montserrat-Bold;
+}
+
+.redish-bg {
+    background: url(../img/rectangle.png) no-repeat;
+}
+
+.col-4-footer ul li {
+    padding-right: 85px;
+    margin-top: 50px;
+}
+
+.footer-post li {
+    padding-left: 80px;
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.block {
+    display: block;
+}
+
+.footer-tweets {
+    font-family: Montserrat-Regular;
+}
+
+.text-small {
+    font-size: 8px;
+}
+
+.footer-para {
+    margin-top: 40px;
+    font-family: Montserrat-Regular;
+    line-height: 25px;
+}
+
+#copy-right {
+    background-color: #d7dedc;
+}
+
+#copy-right .container {
+    text-align: center;
+}
+
+.copy-block h2,
+.social-icon {
+    display: inline-block;
+}
+
+.copy-right-flip:after,
+.copy-right-link:after {
+    content: "";
+    border: 1px solid black;
+    margin: 0 30px;
+}
+
+.copy-right-flip,
+.copy-right-link {
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+.social-icon {
+    vertical-align: middle;
+}
+
+.s-icon {
+    margin: 0 20px;
+}
